@@ -11,8 +11,11 @@ let dark = prompt("Enter the word dark: ");
 
 let questionArray = [planet1, planet2, day, dark];
 
+let questionCounter = 0;
 for (let i = numberOfQuestions; i > 0; i--){
     console.log(i);
+    questionCounter += 1;
+    console.log(questionCounter);
 }
 console.log(originalStory);
 
