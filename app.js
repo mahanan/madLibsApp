@@ -18,5 +18,19 @@ for (let i = numberOfQuestions; i > 0; i--){
     console.log(questionCounter);
 }
 console.log(originalStory);
+if (planet1 === '') {
+    alert("the user didn't write anything, you must start over again");
+} else if (planet2 === '') {
+    alert("the user didn't write anything, you must start over again");
+} else if (day === '') {
+    alert("the user didn't write anything, you must start over again");
+} else if (dark === '') {
+    alert("the user didn't write anything, you must start over again");
+} else {
+    document.write(originalStory);
+}
+console.log(questionArray);
+
+alert('All done! Ready for your totally-accurate, not-at-all confusing history of tech??');
 
 //let originalStory = "The moon shines only when its dark. The sun shines only when is day. There is working harmony betwwen the sun and the moon, this is a shift, a permanent shift.";
